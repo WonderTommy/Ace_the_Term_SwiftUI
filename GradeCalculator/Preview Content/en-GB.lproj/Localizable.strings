@@ -1,0 +1,8 @@
+/* 
+  File.strings
+  GradeCalculator
+
+  Created by Hao Li on 2020-08-02.
+  Copyright © 2020 Hao Li. All rights reserved.
+*/
+"hello_world" = "Hello, World!";

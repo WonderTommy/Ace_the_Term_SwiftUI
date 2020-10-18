@@ -8,14 +8,15 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct TabView: View {
+    private var testLabel = NSLocalizedString("hello_world", comment: "")
     var body: some View {
-        Text("Hello, World!")
+        Text(testLabel)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        TabView()
     }
 }
